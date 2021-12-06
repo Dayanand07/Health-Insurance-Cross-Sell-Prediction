@@ -36,3 +36,5 @@ Response : 1 - Customer is interested, 0 - Customer is not interested
 
 # Conclusion
 The ML model for the problem statement was created using python with the help of the dataset, and the ML model created with Random Forest and XGBClassifier models performed better than Logistics Regression model. Thus, for the given problem, the models created by Random Forest and XGBClassifier.
+
+Customers of age between 30 to 60 are more likely to buy insurance. Customers with Driving License have higher chance of buying Insurance. Customers with Vehicle_Damage are likely to buy insurance. The variable such as Age, Previously_insured,Annual_premium are more afecting the target variable. comparing ROC curve we can see that Random Forest model preform better. Because curves closer to the top-left corner, it indicate a better performance.
